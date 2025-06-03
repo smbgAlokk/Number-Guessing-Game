@@ -23,6 +23,7 @@ function addTwoNumbers2(num1, num2) {
 let result = addTwoNumbers2(234, 24);
 console.log(result); // 258
 
+// Method - 3
 // For the condition if nothing will pass in argument then will we handle that error like this.
 function loginUserMessage(username) {
   if (!username) {
@@ -34,3 +35,33 @@ function loginUserMessage(username) {
 }
 
 console.log(loginUserMessage());
+
+// Method - 4
+function calculateCartPrice(...num1) {
+  return num1;
+}
+console.log(calculateCartPrice(63, 3, 43, 142));
+
+// Method - 5
+const user = {
+  username: "Alok Kumar",
+  price: 99,
+};
+
+function handleObject(anyObject) {
+  console.log(
+    `Username is ${anyObject.username} and the course Price is ${anyObject.price}`
+  );
+}
+
+handleObject(user);
+
+// Method - 6
+
+const myNewArr = [200, 300, 400, 500];
+
+function handleArray(getArr) {
+  return getArr[1];
+}
+
+console.log(handleArray(myNewArr));
