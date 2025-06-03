@@ -45,6 +45,6 @@ chai(); // {}
 
 // const addTwo = (num1, num2) => (num1 + num2);
 // const addTwo = (num1, num2) => num1 + num2;
-console.log(addTwo(31, 43)); // 74
+// console.log(addTwo(31, 43)); // 74
 
 const addTwo = (num1, num2) => ({ username: "Alok" });
