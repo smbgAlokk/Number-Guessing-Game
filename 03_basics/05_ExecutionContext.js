@@ -42,5 +42,6 @@ Imagine you're cooking in a kitchen:
 
 > Code execution is like cooking step by step using those ingredients.
 
-
+# Call Stack: (LIFO)
+The call stack is a data structure that keeps track of the function calls in the order they were made
 */
