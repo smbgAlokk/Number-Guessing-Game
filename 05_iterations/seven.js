@@ -1,3 +1,5 @@
+// map()
+
 const myNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // const myNum = myNumber.map((num) => num + 10);
