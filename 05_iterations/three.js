@@ -1,4 +1,4 @@
-// for of
+// for of => Use for...of when you need to iterate over the values of an iterable object, such as an array or string, and the order matters.
 
 const arr = [1, 2, 3, 4, 5, 6];
 

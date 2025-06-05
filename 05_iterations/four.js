@@ -1,3 +1,5 @@
+// for in => Use for...in when you need to iterate over the properties of an object (keys), but avoid using it for arrays if the order of elements is important. Consider using for...of or Array.forEach() for arrays.
+
 const myObject = {
   js: "Javascript",
   cpp: "C++",
