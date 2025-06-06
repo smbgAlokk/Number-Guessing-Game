@@ -1,0 +1,54 @@
+.basic {
+  background-color: #212121;
+  color: #fff;
+}
+
+.header {
+  background-color: #646464;
+  padding: 1px;
+  margin-top: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+span {
+  display: block;
+}
+
+.canvas {
+  margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+
+.inner {
+  background-color: bisque;
+  color: #4e3636;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 5px;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  display: inline-block;
+}
+
+#red {
+  background: rgb(255, 0, 0);
+}
+
+#white {
+  background: #fff;
+}
+
+#blue {
+  background: #0015ff;
+}
+#yellow {
+  background: #fffb00;
+}
