@@ -44,7 +44,10 @@ function validateGuess(guess) {
 
 function checkGuess(guess) {
   if (guess === randomNum) {
-    displayMessage(`You guessed it in ${numGuess} attempts!`);
+    displayMessage(
+      `You guessed it in ${numGuess} attempts! 
+      Right answer: ${randomNum}`
+    );
     endGame();
   } else if (guess < randomNum) {
     displayMessage("Too Low!");
@@ -73,6 +76,7 @@ function endGame() {
   playGame = false;
   newGame();
 }
+
 function newGame() {
   const newGameButton = document.querySelector("#newGame");
   preGuess = [];
