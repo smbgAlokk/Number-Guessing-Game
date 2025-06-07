@@ -1,4 +1,4 @@
-const randomNum = parseInt(Math.random() * 100 + 1);
+let randomNum = parseInt(Math.random() * 100 + 1);
 
 const submit = document.querySelector("#subt");
 const userInput = document.querySelector("#guessField");
@@ -83,6 +83,7 @@ function newGame() {
     randomNum = parseInt(Math.random() * 100 + 1);
     preGuess = [];
     numGuess = 1;
+    displayMessage("");
     guessSlot.innerHTML = "";
     remaining.innerHTML = "10";
     userInput.removeAttribute("disabled");
