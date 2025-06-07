@@ -79,11 +79,14 @@ function endGame() {
 
 function newGame() {
   const newGameButton = document.querySelector("#newGame");
-  preGuess = [];
-  numGuess = 1;
-  guessSlot.innerHTML = "";
-  remaining.innerHTML = "10";
-  userInput.removeAttribute("disabled");
-  startOver.removeChild(p);
-  playGame = true;
+  newGameButton.addEventListener("click", (e) => {
+    randomNum = parseInt(Math.random() * 100 + 1);
+    preGuess = [];
+    numGuess = 1;
+    guessSlot.innerHTML = "";
+    remaining.innerHTML = "10";
+    userInput.removeAttribute("disabled");
+    startOver.removeChild(p);
+    playGame = true;
+  });
 }
